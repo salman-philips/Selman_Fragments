@@ -1,3 +1,5 @@
+//1.part
+
 1) An activity is acquires that extends activity class from t framework Android and has lead being inflated
 
 2) Fragments were first added as a modular components in 2011 honeycomb version with introduction of motorolla Xoom
@@ -8,3 +10,16 @@
 -> then add a fragment statically inside the XML layout activity and
 -> keep their name tag in the XML level of the activity of the fragment with the fragment class that you have created
 -> Don't forget to at the ID property in the activity XML of the fragment tag
+
+
+//2.part
+
+-> Replace the fragment tag in the XML of the activity with the placeholder such as relative layout or
+linear layout or fragment layout but preferably it would be better to use a fragment container view
+
+-> we need to APIs one of them is fragment transaction API to which we have to use a fragment manager API to get hold of it
+
+-> using fragment transaction API we can add remove or replace a given fragment
+
+-> make sure to get a support fragment manager so that it is backward compatible with the app compact activity
+
